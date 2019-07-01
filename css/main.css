@@ -77,6 +77,7 @@ body {
 
 .sociallinks {
   display: flex;
+  float: right;
 }
 
 #linkedin_icon {
@@ -110,24 +111,184 @@ body {
 
 section {
   width: 100%;
-  height: 50rem;
+  /* height: 50rem; */
 
 }
 
-#home_page {
+/* #home_page {
   background-image: url("../img/home.jpg");
   background-size:cover;
   background-repeat: no-repeat;
-}
+} */
 
 #about_me_page {
-  background-color: #FFFF36;
+	background-color: #FFF;
+	border: 0.0625rem solid #ebf5fa;
+	border-radius: 0.625rem;
+	padding: 0.9375rem 2rem;
+
+}
+#about_me_page h3{
+	text-transform: uppercase;
+	color: #000;
+	font-weight: bold;
+	border-bottom: 0.0625rem solid rgba(199, 199, 199, 0.5);
 }
 
+/* .introduction {
+	border-bottom: 0.125rem solid rgba(199, 199, 199, 0.5);
+} */
+.introduction h3 {
+	/* text-transform: uppercase; */
+	text-align: center;
+}
+
+.introduction p {
+	color: #000;
+	font-size: 1.375rem;
+	text-align: justify;
+	line-height: 1.875rem;
+	padding-bottom: 1.875rem;
+}
+
+.hobits_icons table{
+	border: none;
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0.625rem;
+}
+
+.hobits_icons table thead th {
+	padding-left: 2rem;
+	
+	
+
+	
+}
+
+.hobits_icons table tr td {
+	/* padding: 0rem 0.9375rem; */
+	text-align: center;
+	font-family: serif;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+#family {
+	background: url("../img/family.svg") no-repeat;
+	width: 6rem;
+    height: 6rem;
+	background-size: 60%;
+	padding-bottom: 0.3125rem;
+
+	
+}
+
+#studying {
+	background: url("../img/learning.png") no-repeat;
+	width: 6rem;
+    height: 6rem;
+	background-size: 60%;
+	padding-bottom: 0.3125rem;
+
+	
+}
+
+#workout {
+	background: url("../img/workout.png") no-repeat;
+	width: 6rem;
+    height: 6rem;
+	background-size: 60%;
+	padding-bottom: 0.3125rem;
+
+	
+}
+
+#friends {
+	background: url("../img/social.png") no-repeat;
+	width: 6rem;
+    height: 6rem;
+	background-size: 60%;
+	padding-bottom: 0.3125rem;
+
+	
+}
+
+#games {
+	background: url("../img/gaming.png") no-repeat;
+	width: 6rem;
+    height: 6rem;
+	background-size: 60%;
+	padding-bottom: 0.3125rem;
+
+	
+}
+/* 				<li><img id="family"></li>
+				<li><img id="studying"></li>
+				<li><img id="workout"></li>
+				<li><img id="friends"></li>
+				<li><img id="games"></li> */
+				
+
+
+.skills {
+	margin-top: 2rem;
+}
+
+.skills_title_block {
+	display: flex-block;
+	list-style: none;
+	padding: 0.25rem 0.3125rem;
+}
+.flex_container {
+	display: flex;
+	
+}
+
+.skill_title  ul{
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	
+	
+}					
+				
+.skill_title {
+	padding: 1rem;
+	font-family: sans-serif;
+	font-weight: bold;
+}			
+
+
+
+.skill_items {
+	background-color: #cadec3;
+	border: 0.0625 solid #b3d6e8;
+	border-radius: 0.625rem;
+	margin: 0.625rem;
+	padding: 0.25rem 0.3125rem;
+	font-size: 0.875rem;
+	font-family: serif;
+	font-weight: bold;
+}				
 #experience_page {
   background-color: #FDFDFD;
 }
 
 #projects_page {
   background-color: #F0F0F0;
+}
+
+
+
+
+.footer_section {
+	width: 100%;
+	height: 5rem;
+	background-color: #FFF;
+	margin-top: 1.25rem;
+	
+	
 }
