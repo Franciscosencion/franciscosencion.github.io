@@ -1,16 +1,12 @@
 
-
 :root {
   font-size: 1em;
-
-
 }
 /* screens size less than or equal to 767.97px*/
 
-
 @media (max-width: 767.97px ) {
 	:root {
-		font-size: 1.5em;
+		font-size: 1.3em;
 	}
 	html, body {
 		width: auto!important;
@@ -369,14 +365,14 @@ figure figcaption {
 }
 
 
-/* At the top level of your code */
 
-/* Small devices (landscape phones, 576px and up) */
+
+/* Small devices 767px or less */
 
 @media (max-width: 767px) {
   #autonetimg {
-	height: 18rem;
-	width: 18rem;
+	height: 12rem;
+	width: 12rem;
   }
   
   #techlogo_container {
@@ -384,7 +380,7 @@ figure figcaption {
   }
   .hobbies_icons  {
 	 text-align: center;
-	 padding: 4rem;
+	 padding: 1rem;
   }
  .skill_items {
 	 font-size: 1rem;
@@ -404,18 +400,6 @@ figure figcaption {
 	
 }
 }
-
-@media (max-width: 510px){
-	#autonetimg {
-		height: 12rem;
-		width: 12rem;
-	}
-	.hobbies_icons  {
-		text-align: center;
-		padding: 1rem;
-  }
-}
-
 
 
 
