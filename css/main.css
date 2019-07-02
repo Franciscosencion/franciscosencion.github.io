@@ -160,86 +160,35 @@ section {
 	padding-bottom: 1.875rem;
 }
 
-.hobits_icons table{
-	border: none;
-
+.hobbies-class {
+	display: flex;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 0.625rem;
 }
 
-.hobits_icons table thead th {
-	padding-left: 2rem;
-	
-	
+.hobbies-class figure{
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
 
+
+#hobbies-img {
+	/* background: url("../img/family.svg") no-repeat; */
+	width: 6rem;
+    height: 6rem;
+	background-size: 60%;
+	/* background-size: 60%; */
+	padding:0.0.3125rem 0.625rem;
 	
 }
 
-.hobits_icons table tr td {
-	/* padding: 0rem 0.9375rem; */
-	text-align: center;
-	font-family: serif;
-	text-transform: uppercase;
+figure figcaption {
 	font-weight: bold;
+/* 	padding-left: 0.3125rem;
+	padding-right: 0.3125rem; */
+	text-transform: uppercase;
+	text-align: center;
 }
-
-
-#family {
-	background: url("../img/family.svg") no-repeat;
-	width: 6rem;
-    height: 6rem;
-	background-size: 60%;
-	padding-bottom: 0.3125rem;
-
-	
-}
-
-#studying {
-	background: url("../img/learning.png") no-repeat;
-	width: 6rem;
-    height: 6rem;
-	background-size: 60%;
-	padding-bottom: 0.3125rem;
-
-	
-}
-
-#workout {
-	background: url("../img/workout.png") no-repeat;
-	width: 6rem;
-    height: 6rem;
-	background-size: 60%;
-	padding-bottom: 0.3125rem;
-
-	
-}
-
-#friends {
-	background: url("../img/social.png") no-repeat;
-	width: 6rem;
-    height: 6rem;
-	background-size: 60%;
-	padding-bottom: 0.3125rem;
-
-	
-}
-
-#games {
-	background: url("../img/gaming.png") no-repeat;
-	width: 6rem;
-    height: 6rem;
-	background-size: 60%;
-	padding-bottom: 0.3125rem;
-
-	
-}
-/* 				<li><img id="family"></li>
-				<li><img id="studying"></li>
-				<li><img id="workout"></li>
-				<li><img id="friends"></li>
-				<li><img id="games"></li> */
-				
 
 
 .skills {
@@ -315,8 +264,13 @@ section {
 #autonetimg {
 	height: 30rem;
 	width: 30rem;
-	padding: 0;
+	padding-bottom: 2rem;
+	margin: 0;
 	
+}
+
+#projectdescription {
+	padding: 4rem;
 }
 
 .projects_autonetweb p{
