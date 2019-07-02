@@ -4,7 +4,7 @@ let tooglebtn = document.querySelector("button")
 let toogle_navbar = function(e) {
   // e.preventDefault()
   if (navbartoogled === false) {
-    document.querySelector('#navbarNav').style.backgroundColor = "#edeff2";
+    document.querySelector('#navbarNav').style.backgroundColor = "#364042";
     // document.querySelector('.mycustom_collapse').style.height = "23rem";
     navbartoogled == true;
     console.log("btn clicked")
