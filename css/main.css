@@ -6,11 +6,18 @@
 
 }
 /* screens size less than or equal to 767.97px*/
-@media ( max-width: 767.97px ) {
-  :root {
-    font-size: 1.5em;
-  }
+
+
+@media (max-width: 767.97px ) {
+	:root {
+		font-size: 1.5em;
+	}
+	html, body {
+		width: auto!important;
+		overflow-x: hidden !important;
+	}
 }
+
 
 /* screens size greater than or equal to 767.98px*/
 @media (min-width: 767.98px){
@@ -366,7 +373,6 @@ figure figcaption {
 
 /* Small devices (landscape phones, 576px and up) */
 
-
 @media (max-width: 767px) {
   #autonetimg {
 	height: 18rem;
@@ -398,3 +404,19 @@ figure figcaption {
 	
 }
 }
+
+@media (max-width: 510px){
+	#autonetimg {
+		height: 12rem;
+		width: 12rem;
+	}
+	.hobbies_icons  {
+		text-align: center;
+		padding: 1rem;
+  }
+}
+
+
+
+
+
