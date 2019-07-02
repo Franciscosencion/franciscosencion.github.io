@@ -1,8 +1,25 @@
+
+
 :root {
   font-size: 1em;
 
 
 }
+/* screens size less than or equal to 767.97px*/
+@media ( max-width: 767.97px ) {
+  :root {
+    font-size: 1.5em;
+  }
+}
+
+/* screens size greater than or equal to 767.98px*/
+@media (min-width: 767.98px){
+  :root {
+    font-size: 1.1em;
+  }
+}
+
+
 
 * {
   margin: 0;
@@ -21,10 +38,13 @@ body {
 .custom-navbar {
   width: 100%;
   top: 0;
-  height: 5rem;
   background-color: #364042;
+  
 }
 
+.navbarsection {
+	margin-bottom: 5rem;
+}
 #navbarNav {
   background-color: transparent;
 }
@@ -45,6 +65,8 @@ body {
   margin-bottom: 0.125rem;
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 1.25rem;
+
   font-family: serif;
   color: #FFF;
 
@@ -54,6 +76,7 @@ body {
   color: #fff;
   background-color: #2b2b2b;
   border-radius: 0.4rem;
+  padding-left: 1rem;
 }
 
 .navbar-toggler {
@@ -132,7 +155,7 @@ section {
 
 .introduction p {
 	color: #000;
-	font-size: 1.375rem;
+	font-size: 1.25rem;
 	text-align: justify;
 	line-height: 1.875rem;
 	padding-bottom: 1.875rem;
@@ -171,7 +194,8 @@ figure figcaption {
 
 
 .skills {
-	margin-top: 2rem;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
 }
 
 .skills_title_block {
@@ -195,8 +219,7 @@ figure figcaption {
 	display: flex;
 	flex-wrap: wrap;
 	list-style: none;
-	
-	
+
 }					
 				
 .skill_title {
@@ -206,6 +229,8 @@ figure figcaption {
 
 .skill_title h5{
 	font-weight: bold;
+	font-size: 1.5rem;
+
 }
 
 
@@ -215,6 +240,7 @@ figure figcaption {
 	margin: 0.625rem;
 	padding: 0.25rem 0.3125rem;
 	font-family: serif;
+	font-size: 1.25rem;
 	color: #FFF;
 }				
 
@@ -231,23 +257,23 @@ figure figcaption {
 }
 
 #autonetimg {
-	height: 30rem;
-	width: 30rem;
+	height: 36.25rem;
+	width: 36.25rem;
 	padding-bottom: 2rem;
 	margin: 0;
 	
 }
 
 #projectdescription {
-	padding: 4rem;
+	padding: 1rem;
 }
 
 .projects_autonetweb p{
 	color: #000;
-	font-size: 1.375rem;
+	font-size: 1.25rem;
 	text-align: justify;
 	line-height: 1.875rem;
-	padding-bottom: 1.875rem;
+	padding-bottom: 1rem;
 }
 
 #techlogo_container {
@@ -293,6 +319,7 @@ figure figcaption {
     display: inline-block;
     font-weight: 400;
     color: #212529;
+
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;
@@ -301,7 +328,7 @@ figure figcaption {
     user-select: none;
     border: 1px solid transparent;
     padding: .375rem .75rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.5;
     border-radius: .25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
@@ -310,7 +337,7 @@ figure figcaption {
 
 .btn-launch {
     width: 100%;
-    max-width: 200px;
+	max-width: 12.5rem;
     background-color: #549657;
     color: white;
     box-shadow: 0px 2px 5px 1px darkgrey;
@@ -334,3 +361,40 @@ figure figcaption {
 	padding-top: 0.625rem;
 }
 
+
+/* At the top level of your code */
+
+/* Small devices (landscape phones, 576px and up) */
+
+
+@media (max-width: 767px) {
+  #autonetimg {
+	height: 18rem;
+	width: 18rem;
+  }
+  
+  #techlogo_container {
+	  text-align: center;
+  }
+  .hobbies_icons  {
+	 text-align: center;
+	 padding: 4rem;
+  }
+ .skill_items {
+	 font-size: 1rem;
+ }
+ .skill_title h5 {
+	 font-size: 1.2rem;
+ }
+ .skills {
+	padding-top: 4rem;
+	padding-bottom: 5rem;
+ }
+ #skill_image {
+	width: 3rem;
+	height: 3rem;
+	margin: 0.625rem 1.125rem;
+	float: right;
+	
+}
+}
