@@ -277,9 +277,18 @@ figure figcaption {
 	text-align: justify;
 }
 
+#techlogo_container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.techlogo {
+	width: 10rem;
+	
+	
+}
 
 #python_icon {
-  width: 10rem;
   /* height: 10rem; */
   background: url("../img/python.svg") no-repeat top left;
   /* background-repeat: no-repeat; */
@@ -288,7 +297,6 @@ figure figcaption {
 }
 
 #django_icon {
-  width: 10rem;
   /* height: 10rem; */
   background: url("../img/django.png") no-repeat top left;
   /* background-repeat: no-repeat; */
@@ -297,7 +305,6 @@ figure figcaption {
 }
 
 #bootstrap_icon{
-  width: 10rem;
   /* height: 10rem; */
   background: url("../img/bootstrap.png") no-repeat top left;
   /* background-repeat: no-repeat; */
@@ -306,7 +313,6 @@ figure figcaption {
 }
 
 #javascript_icon {
-  width: 10rem;
   /* height: 10rem; */
   background: url("../img/javascript.svg") no-repeat top left;
   /* background-repeat: no-repeat; */
