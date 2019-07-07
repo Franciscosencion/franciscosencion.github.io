@@ -2,11 +2,13 @@
 <html lang="en" dir="ltr">
 	<head>
 	<meta charset="utf-8">
-	<title>Home</title>
+	<title>Francisco Sencion</title>
+	<link rel="icon" type="image/ico" href="img/aboutme.jpg">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<meta content="width=device-width, initial-scale=1" name="viewport" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif|Patua+One|Roboto+Mono&display=swap" rel="stylesheet">
 	</head>
 	<body>
 		<header class="navbarsection">
@@ -16,7 +18,7 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNav">
 			  <ul class="navbar-nav navbar_local_links">
-				<li><a class="nav-link" href="#about_me_page">About Me</a></li>
+				<li><a class="nav-link" href="#aboutme-section">About Me</a></li>
 				<li><a class="nav-link" href="#projects_page">Projects</a></li>
 				<li><a class="nav-link" href="#contactme_page">Contact</a></li>
 				<li><a class="nav-link" href="https://github.com/Franciscosencion/franciscosencion.github.io/blob/master/resume/FranciscoSencion.pdf">Resume</a></li>
@@ -39,66 +41,58 @@
 
 		  </nav>
 		  </header>
-
-		  <br>
 		<!-- body -->
-		  <div class="introduction_section">
-			<section id="about_me_page">
-				  <div class="container">
-					<section class="introduction">
-						<h3>About me</h3>
-						<p>
-							My name is <strong>Francisco Sencion</strong> and I am a self-taught <strong>Network Engineer</strong> & <strong>Software developer</strong> that's passionate about technology in general.  
-							I am interested in being part of an organization with a culture built around their customers and employees. 
-							Below are some of my career interests:
-						</p>
-						<!-- HOBBIES  -->
-						<div class="career-interest-icons">
-							<div class="row">
-								<div class="col career-interest-class">
-									<figure>
-										<img id="career-interest-img" src="img/coding.svg">
-										<figcaption >Development </figcaption>
-									</figure>
-								</div>
-								<div class="col career-interest-class">
-									<figure>
-										<img id="career-interest-img" src="img/networking.svg">
-										<figcaption >Networking </figcaption>
-									</figure>
-								</div>
-								<div class="col career-interest-class">								
-									<figure>
-										<img id="career-interest-img" src="img/collaboration.png">
-										<figcaption >Collaboration </figcaption>
-									</figure>
-								</div>
-<!-- 								<div class="col career-interest-class">
-									<figure>
-										<img id="career-interest-img" src="img/social.png">
-										<figcaption >Socializing</figcaption>
-									</figure>
-								</div>
-								<div class="col career-interest-class">
-									<figure>
-										<img id="career-interest-img" src="img/games.svg">
-										<figcaption >Video Games</figcaption>
-									</figure>	
-								</div> -->
+		    <div id="aboutme-section" class="introduction_section">
+				<section class="body-sections">
+					<div class="container introduction" >
+						<section >
+							<div class="section-header">
+								<h3>About me</h3>
+							</div>				
+							<p>
+								My name is <strong>Francisco Sencion</strong> and I am a self-taught <strong>Network Engineer</strong> & <strong>Software developer</strong> that's passionate about technology in general.  
+								I am interested in being part of an organization with a culture built around their customers and employees. 
+								Below are some of my career interests:
+							</p>
+							<!-- HOBBIES  -->
+							<div class="career-interest-icons">
+								<div class="row">
+									<div class="col career-interest-class">
+										<figure>
+											<img class="career-interest-img" src="img/coding.svg">
+											<figcaption >Development</figcaption>
+										</figure>
+									</div>
+									<div class="col career-interest-class">
+										<figure>
+											<img class="career-interest-img" src="img/networking.svg">
+											<figcaption >Networking</figcaption>
+										</figure>
+									</div>
+									<div class="col career-interest-class">								
+										<figure>
+											<img class="career-interest-img" src="img/collaboration.png">
+											<figcaption >Collaboration</figcaption>
+										</figure>
+									</div>
 								</div>
 							</div>
-						</div>
-					</section>
-				</div>
+						</section>
+					</div>
+				</section>
 			</div>
 			<div class="skills_section">
-				<section id="about_me_page">		
-				<div class="container">
-				<section class="myskills_section">
+				<section class="body-sections">		
+				<div class="container myskills_section">
+				<section>
 					<div class="skills" >
-						<h3>Technical Skills <img id="skill_image" src="img/skills.png"></h3>
+						<div class="section-header">
+							<h3>Technical Skills</h3>
+							<img id="skill_image" src="img/skills.png">
+						</div>
+						
 						<ul class="skills_title_block">
-							<div class="row">
+							<div class="row skill-row">
 								<div class="col">
 								<li class="skill_title"><h5>Management</h5>
 									<div class="flex_container">
@@ -137,7 +131,7 @@
 								</li>
 								</div>
 							</div>
-							<div class="row">
+							<div class="row skill-row">
 								<div class="col">
 									<li class="skill_title"><h5>Cloud Computing</h5>
 										<div class="flex_container">
@@ -161,7 +155,7 @@
 									</li>
 								</div>
 							</div>
-							<div class="row">
+							<div class="row skill-row">
 								<div class="col">
 									<li class="skill_title"><h5>Load Balancer</h5>
 										<div class="flex_container">
@@ -183,7 +177,7 @@
 									</li>
 								</div>
 							</div>
-							<div class="row">
+							<div class="row skill-row">
 								<div class="col">
 									<li class="skill_title"><h5>Web Technologies</h5>
 										<div class="flex_container">
@@ -208,7 +202,7 @@
 									</li>
 								</div>
 							</div>
-							<div class="row">
+							<div class="row skill-row">
 								<div class="col">
 									<li class="skill_title"><h5>Deployment Tools</h5>
 										<div class="flex_container">
@@ -239,22 +233,26 @@
 			</section>
 		</div>
 		<!-- Projects section -->
-		<div class="experience_section">
-			<section id="projects_page">
-			<div class="container">
+		<section id="projects_page">
+			<div class="container projects-section">
 				<section class="projects_autonetweb">
-				<h3>Projects</h3>
-					<div class="row">
-						<div id="projectdescription" class="col">
-							<h2><a href="https://github.com/Franciscosencion/AutoNetWebPublic" target="blank">AutoNetWeb</a></h2>
+					<div class="section-header">
+						<h3>Projects</h3>
+					</div>
+					<div class="row ">
+						<div  class="col">
+							<h4><a href="https://github.com/Franciscosencion/AutoNetWebPublic" target="blank">AutoNetWeb</a></h4>
 							<p>A network automation and configuration management web application to help manage configurations and automate network related tasks.</p>
 							<h4>Technology</h4>
 							<p>AutoNetWeb uses Bootstrap4 for a mobile-first layout, with JavaScript for page manipulation. On the backend it uses Django & Python to handle user inputs and interact with the database and network devices.</p>
 						</div>
-						<div class="col">
-							 <img id="autonetimg" srcset="img/autonetweb-320w.png 320w, img/autonetweb-480w.png 480w, img/autonetweb-800w.png 800w" sizes="(max-width: 320px) 280px, (max-width: 450px) 320px, (max-width: 480px) 380px, (max-width: 699px) 420px,(max-width: 769px) 460px,480px" src="img/autonetweb.png">
-					   </div>
 
+
+					</div>
+					<div class="row" >
+						<div class="col">
+							<img id="autonetimg" srcset="img/autonetweb-320w.png 320w, img/autonetweb-480w.png 480w, img/autonetweb-800w.png 800w" sizes="(max-width: 350px) 220px, (max-width: 450px) 320px, (max-width: 480px) 420px, 480px" src="img/autonetweb.png">
+						</div>
 					</div>
 					<div id="techlogo_container" class="row">
 						<div class="col" >
@@ -274,16 +272,20 @@
 				
 				</section>
 				<div class="" style=" margin:20px; text-align: center;">
-					<a id="view-btn" class="custom-btn btn-launch" href="https://github.com/Franciscosencion/AutoNetWebPublic" target="blank">View</a>
+					<a id="view-btn" class="custom-btn btn-launch" href="https://github.com/Franciscosencion/AutoNetWebPublic" target="blank">Get</a>
 				</div>	
 			</div>	
-		</section>
-		</div>
-<!-- Projects section -->
+	</section>
+
+<!-- contact me section -->
 		<div class="contactme_section">
 			<div class="container" >
 			<section id="contactme_page">
-				<h3>Contact Me <img id="contact_image" src="img/contact.svg"></h3>
+				<div class="section-header">
+					<h3>Contact Me</h3>
+					<img id="contact_image" src="img/contact.svg">
+				</div>
+				
 				<div class="container">
 					<p>I am available for hire, please reach out if you have any opportunities available.</p>
 					<dl class="dl dl-vertical">

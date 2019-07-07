@@ -5,7 +5,7 @@ let toogle_navbar = function(e) {
   // e.preventDefault()
   if (navbartoogled === false) {
 	document.querySelector('.custom-navbar').style.height = "23rem;"
-    document.querySelector('#navbarNav').style.backgroundColor = "#364042";
+    document.querySelector('#navbarNav').style.backgroundColor = "#004b7c";
     // document.querySelector('.mycustom_collapse').style.height = "23rem";
     navbartoogled == true;
     }
